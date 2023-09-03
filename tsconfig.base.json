@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@monorepo-build/alpha-package": ["packages/alpha-package/src/index.ts"]
+      "@monorepo-build/alpha-package": ["packages/alpha-package/src/index.ts"],
+      "@monorepo-build/beta-package": ["packages/beta-package/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
